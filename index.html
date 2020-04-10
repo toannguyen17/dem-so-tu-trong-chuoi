@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Đếm số từ chong chuỗi</title>
+</head>
+<body>
+	<p>Bài 4: Viết một chương trình để đếm số từ trong một chuỗi.</p>
+	<button onclick="countNumber()">Đếm số từ chong chuỗi.</button>
+	<script type="text/javascript">
+		function countNumber() {
+			let enter = prompt('Đếm số từ trong chuỗi.');
+			if (enter !== null) {
+				let list = enter.split(' ');
+				alert('chuỗi nhập vào có: '+list.length+' từ.');
+			}
+		}
+	</script>
+</body>
+</html>
